@@ -1,7 +1,14 @@
+import Image from "next/image";
+import banner from "@/images/imdb-banner.png";
+
 export default function About() {
   return (
     <div className="max-w-6xl mx-auto p-3 space-y-4 text-justify">
       <h1 className="text-2xl font-medium text-amber-400">About</h1>
+
+      <div className="py-4 drop-shadow">
+        <Image className="rounded-lg" src={banner} alt="imdb-banner" />
+      </div>
       <p>
         Launched online in 1990 and a subsidiary of Amazon.com since 1998, IMDb
         is the world's most popular and authoritative source for movie, TV and
