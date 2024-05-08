@@ -13,7 +13,7 @@ export default function About() {
         Launched online in 1990 and a subsidiary of Amazon.com since 1998, IMDb
         is the world's most popular and authoritative source for movie, TV and
         celebrity content, designed to help fans explore the world of movies and
-        shows and decide what to watch.
+        shows and decide what to watch. 
       </p>
 
       <p>
