@@ -4,7 +4,7 @@ import { IoMdStar } from "react-icons/io";
 
 export default function Card({ result }) {
   return (
-    <div className="group">
+    <div className="group mt-5">
       <Link className="space-y-3 " href={`/movie/${result.id}`}>
         <Image
           className="group-hover:scale-105 rounded-lg transition duration-200 ease-in-out"
