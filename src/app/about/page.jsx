@@ -10,14 +10,19 @@ export default function About() {
         <Image className="rounded-lg" src={banner} alt="imdb-banner" />
       </div>
       <p>
-        Launched online in 1990 and a subsidiary of Amazon.com since 1998, IMDb
-        is the world's most popular and authoritative source for movie, TV and
-        celebrity content, designed to help fans explore the world of movies and
-        shows and decide what to watch. 
+        IMDb, short for Internet Movie Database, has been a consistent focal
+        point for film enthusiasts, television aficionados, and celebrity
+        followers since it&apos;s launch in 1990. As a subsidiary of Amazon.com
+        since 1998, IMDb has solidified itself as the most popular and reliable
+        source of information in the entertainment industry. With its extensive
+        and detailed database, IMDb provides reviews, ratings, trailers, and
+        information about the cast and crew behind the scenes, helping users
+        explore the world of entertainment and make informed decisions about
+        what they want to watch.
       </p>
 
       <p>
-        IMDb is the world's most popular and authoritative source for
+        IMDb is the world&apos;s most popular and authoritative source for
         information on movies, TV shows, and celebrities. Products and services
         to help fans discover and decide what to watch and where to watch it
         include: the IMDb website for desktop and mobile devices; apps for iOS
