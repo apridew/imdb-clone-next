@@ -1,6 +1,6 @@
-import { config } from "@/helpers/config";
 import MovieLeft from "@/app/movie/[id]/MovieLeft";
 import MovieRight from "@/app/movie/[id]/MovieRight";
+import { config } from "@/helpers/apis";
 
 export default async function MoviePage({ params }) {
   const movieId = params.id;

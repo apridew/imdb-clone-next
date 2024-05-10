@@ -3,14 +3,20 @@ import Link from "next/link";
 import { IoMdStar } from "react-icons/io";
 
 export default function Card({ result }) {
+  const imageMovie = `https://image.tmdb.org/t/p/original/${
+    result.backdrop_path || result.poster_path
+  }`;
+
   return (
-    <div className="group mt-5">
-      <Link className="space-y-3 " href={`/movie/${result.id}`}>
+    <div className="group mt-5 max-h-80 overflow-hidden">
+      <Link className="space-y-3" href={`/movie/${result.id}`}>
         <Image
-          className="group-hover:scale-105 rounded-lg transition duration-200 ease-in-out"
-          src={`https://image.tmdb.org/t/p/original/${
-            result.backdrop_path || result.poster_path
-          }`}
+          className="group-hover:scale-105 rounded-lg transition duration-200 ease-in-out max-h-36 object-cover"
+          src={
+            imageMovie === "https://image.tmdb.org/t/p/original/null"
+              ? "/no-image.png"
+              : imageMovie
+          }
           alt={result.title}
           width={500}
           height={300}
